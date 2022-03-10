@@ -4,8 +4,8 @@ import numpy as np
 import pickle
 
 ## Load model
-filename = 'random_forest_regressor_model.sav'
-model = pickle.load(open(filename, 'rb'))
+#filename = 'random_forest_regressor_model.sav'
+model = pickle.load('random_forest_regressor_model.sav')
 
 ## Prediction function
 

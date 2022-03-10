@@ -1,5 +1,4 @@
 numpy
 matplotlib
-pickle
 pandas
 streamlit

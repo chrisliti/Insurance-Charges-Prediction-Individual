@@ -5,7 +5,8 @@ import pickle
 
 ## Load model
 #filename = 'random_forest_regressor_model.sav'
-model = pickle.load('random_forest_regressor_model.sav')
+#model = pickle.load('random_forest_regressor_model.sav')
+model = pickle.load(open('rf-model.pkl', 'rb'))
 
 ## Prediction function
 

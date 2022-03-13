@@ -52,6 +52,8 @@ def predict_insurance_charges(age,sex,bmi,children,smoker,region):
    
     prediction=model.predict(pred_df)
     #print(prediction)
+    prediction = np.round(prediction,2)
+    
     return prediction
 
 

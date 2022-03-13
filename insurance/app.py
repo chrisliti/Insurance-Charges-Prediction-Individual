@@ -65,7 +65,7 @@ st.markdown("This web app runs a ML algorithm on a client's profile to predict t
 
 age =st.slider('How old is the client?', 18, 80, 25)
 sex = st.selectbox(" Client's gender?",('male', 'female'))
-bmi = st.slider("Client's bmi?", 15, 60, 30)
+bmi = st.slider("Client's body mass index (BMI)?", 15, 60, 30)
 children = st.slider('How many children does the client have?', 0, 10, 2)
 smoker = st.selectbox('Does the client smoke?',('no', 'yes'))
 region = st.selectbox('Where does the client reside?',('southeast', 'northwest','southwest','northeast'))

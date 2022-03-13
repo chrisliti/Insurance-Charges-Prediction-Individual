@@ -63,6 +63,7 @@ def predict_insurance_charges(age,sex,bmi,children,smoker,region):
 
 st.title('Medical Expense Predictor')
 st.markdown("This web app runs a ML algorithm on a client's profile to predict their medical expenses.")
+st.markdown("Fill in client's details below.")
 
 
 age =st.slider('How old is the client?', 18, 80, 25)

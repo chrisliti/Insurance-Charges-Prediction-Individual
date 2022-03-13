@@ -62,10 +62,10 @@ def predict_insurance_charges(age,sex,bmi,children,smoker,region):
 st.title('Insurance Charges Web Application')
 
 age =st.slider('How old are you?', 18, 80, 25)
-sex = st.radio('What is your gender?',('male', 'female'))
+sex = st.selectbox('What is your gender?',('male', 'female'))
 bmi = st.slider('What is your bmi?', 15, 60, 30)
 children = st.slider('How many children do you have?', 0, 10, 2)
-smoker = st.radio('Do you smoke?',('no', 'yes'))
+smoker = st.selectbox('Do you smoke?',('no', 'yes'))
 region = st.selectbox('Where do you reside?',('southeast', 'northwest','southwest','northeast'))
 
 result = ''
